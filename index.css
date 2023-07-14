@@ -1,0 +1,135 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainDiv {
+    margin: 1vw;
+}
+
+.subDiv1 {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://portfolios.ecti.co.in/SwapnilP/Projects/Restaurant/images/background/hero-bg.jpg');
+}
+
+.nav {
+    padding-top: 1rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-logo {
+    color: #fff;
+    text-align: center;
+    width: 20%;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.nav-items {
+    width: 50%;
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    color: #fff;
+    list-style-type: none;
+}
+
+.nav-items li button {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content p {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.button {
+    margin: 4rem 0rem;
+}
+
+.content>* {
+    text-align: center;
+    color: #fff;
+}
+
+.subDiv2 {
+    margin: 5rem 10rem;
+}
+
+.subDiv2 .col-6 {
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    justify-content: space-between;
+    display: flex;
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-body i {
+    color: green;
+}
+
+.image {
+    background-size: 100% 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://portfolios.ecti.co.in/SwapnilP/Projects/Restaurant/images/background/hero-bg.jpg');
+}
+
+.links {
+    text-align: center;
+}
+
+.subcontent {
+    font-size: 18px;
+    margin: 5rem 10rem;
+}
+
+.subcontent .color {
+    color: green;
+}
+
+.links a {
+    color: green;
+    text-decoration: none;
+    margin: 0px 1rem;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.footer li {
+    margin: 20px 0px;
+}
+
+.icons i {
+    color: #fff;
+    margin: 20px 10px;
+}
